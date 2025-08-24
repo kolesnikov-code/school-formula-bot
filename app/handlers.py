@@ -107,6 +107,7 @@ async def handle_other_projects(callback: CallbackQuery):
     await callback.answer()
 
 
+
 # Обработчики для конкретных тем (пример для алгебры)
 @router.callback_query(F.data.in_(['percentages', 'proportions', 'equations', 'coordinates',
                                    'exponentiation', 'roots', 'number_sequence', 'number_progression']))
